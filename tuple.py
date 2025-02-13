@@ -1,6 +1,5 @@
 t = (1, 2, 3, 4, 5)
 
-# tuples are indexed
 print(t[1])
 print(t[4])
 t=(5,3,6,8,9,)
