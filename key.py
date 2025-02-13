@@ -8,7 +8,6 @@ print(And);
 print(type(And));
 b='sau';
 print(b);
-print(i);
 print(type(b))
 print(keyword.kwlist);
 '''
