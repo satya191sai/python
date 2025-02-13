@@ -17,20 +17,11 @@ this is prostack;
 #varibles
 Prostack = 100
 print(Prostack )
-
 int =10
 print(int)
-
-
 false = 100
 print(false)
-
-
-
 a = {}
-
-
-
 print(type(a))
 a=10
 b=20
@@ -38,4 +29,6 @@ print(a+b)
 a =int(input())
 b=int(input())
 c =a+b
+d=a+b;
 print(c)
+print(d)
