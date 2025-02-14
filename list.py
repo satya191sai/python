@@ -1,6 +1,8 @@
-emps=['a','f',54,67,28,22]
-emps.index(54)
-print(emps)
+s=[10,20,30,40,60]
+print(s.count)
+
+
+
 
 
 
