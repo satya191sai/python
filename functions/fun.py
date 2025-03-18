@@ -10,7 +10,7 @@
 #     FunctionName();    
         
 listobj=["satya","sai","kumar","roopa","krishna"]
-E=[10,3,6,8,0,9,54,87,89]
+E=["kumar","satya","roopa","krishna"]
 E.sort()
 print(E)
 # listobj.append("satya")
