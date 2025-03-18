@@ -110,6 +110,11 @@ for num in employees:
     for num in employees:
         if num["gender"]=="Female":
             print(num["first_name"])
+    count=0
+    for num in employees:
+        if num["gender"]=="Female":
+            count=count+1
+    print(count)    
 i=0
 while i<=len(employees)-1:  
     print(employees[i]["first_name"])
@@ -119,23 +124,23 @@ i=0
 while i<=len(employees)-1:  
     if employees[i]["gender"]=="Female":
      print(employees[i]["first_name"])
-    i=i+1;
+    i=i+1;"""
 i=0
 while i<=len(employees)-1:  
     if employees[i]["gender"]=="Male":
      print(employees[i]["first_name"])
     i=i+1;
-i=0
+"""i=0
 j=0
 while i<=len(employees)-1:  
     if employees[i]["gender"]=="Male":
      j=j+1
     i=i+1
 print(j)"""
-i=0
-j=0
-while i<=len(employees)-1:  
-    if employees[i]["gender"]=="Female":
-     j=j+1
-    i=i+1
-print(j)
+# i=0
+# j=0
+# while i<=len(employees)-1:  
+#     if employees[i]["gender"]=="Female":
+#      j=j+1
+#     i=i+1
+# print(j)
