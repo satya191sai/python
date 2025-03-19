@@ -1,0 +1,12 @@
+dic={'name':"satya",
+      'id':30,
+      'sal':9789798}
+print(dic['name'])
+print(dic['id'])
+print(dic.keys())
+print(dic.values())
+print(dic.items())
+print(dic.pop('name'))
+print(dic)
+print(dic.popitem())
+print(dic)

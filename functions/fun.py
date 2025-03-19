@@ -12,6 +12,8 @@
 listobj=["satya","sai","kumar","roopa","krishna"]
 E=["kumar","satya","roopa","krishna"]
 E.sort()
+l1=["mahesh"]
+E.extend(l1)
 print(E)
 # listobj.append("satya")
 # listobj.append("sai")
