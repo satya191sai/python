@@ -1,7 +1,7 @@
 import json
- 
-f=open('data.json','r')
-emp_data=json.load(f)
-print(emp_data)
+fp1 = open('data.json','r')
+emp_data=json.load(fp1)
+print(type(emp_data))
+
 for emp in emp_data:
-    print(emp['id'])
+    print(emp['ename'])
